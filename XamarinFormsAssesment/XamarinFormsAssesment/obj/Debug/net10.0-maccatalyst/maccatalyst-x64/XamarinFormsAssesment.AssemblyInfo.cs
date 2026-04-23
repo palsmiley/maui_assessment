@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XamarinFormsAssesment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+1471b29ec5eb92e8de379a1569cb230482b8b8c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("XamarinFormsAssesment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XamarinFormsAssesment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
