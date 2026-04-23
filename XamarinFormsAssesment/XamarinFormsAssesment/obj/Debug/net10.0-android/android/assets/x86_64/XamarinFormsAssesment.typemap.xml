@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="XamarinFormsAssesment" mvid="9b83221550f94664b0e0b3561860ffab">
+  <java-to-managed>
+    <entry java-name="crc6468cf9f03ed3f2abf/MainActivity" managed-name="XamarinFormsAssesment.MainActivity, XamarinFormsAssesment" managed-type-token-id="33554455" />
+    <entry java-name="crc6468cf9f03ed3f2abf/MainApplication" managed-name="XamarinFormsAssesment.MainApplication, XamarinFormsAssesment" managed-type-token-id="33554456" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc6468cf9f03ed3f2abf/MainActivity" managed-name="XamarinFormsAssesment.MainActivity, XamarinFormsAssesment" managed-type-token-id="33554455" />
+    <entry java-name="crc6468cf9f03ed3f2abf/MainApplication" managed-name="XamarinFormsAssesment.MainApplication, XamarinFormsAssesment" managed-type-token-id="33554456" />
+  </managed-to-java>
+</api>

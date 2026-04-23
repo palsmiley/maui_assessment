@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:XamarinFormsAssesment.Models"
+             x:Class="XamarinFormsAssesment.MainPage">
+
+    <VerticalStackLayout Padding="30" Spacing="30">
+
+        <CollectionView x:Name="peopleList" Grid.Row="0">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="{x:Type x:String}">
+                    <Grid>
+                        <Border Padding="15" 
+                                StrokeShape="RoundRectangle 20">
+                            <Label Text="{Binding .}" TextColor="{StaticResource Primary}">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnViewClicked" />
+                                </Label.GestureRecognizers>
+                            </Label>
+                        </Border>                        
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button Text="Add Person"
+                x:Name="CounterBtn"
+            Grid.Row="1"
+            Clicked="OnAddClicked" />
+
+    </VerticalStackLayout>
+
+</ContentPage>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinFormsAssesment.ViewEntryPage"
+             Title="View Entry">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="18" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <VerticalStackLayout Padding="30">
+        <Label x:Name="id"/>
+        <Label x:Name="firstName"/>
+        <Label x:Name="lastName"/>
+        <Label x:Name="dateOfBirth"/>
+
+        <Button x:Name="deleteEntry" Text="Delete Entry" HorizontalOptions="Center" Clicked="OnDeleteButtonClicked"/>
+    </VerticalStackLayout>
+</ContentPage>
